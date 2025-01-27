@@ -1,0 +1,47 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.descripcion {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.ingredientes {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.pasos {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.enlace {
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #ddd;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}

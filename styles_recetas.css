@@ -1,25 +1,37 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    color: #444;
+}
+
+body {
+    background-color: #eee;
+    padding: 0.5em;
 }
 
 .titulo {
+    margin-top: 0;
     font-size: 2.5em;
     font-weight: lighter;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    background: radial-gradient(circle, #fff, #aaa);
 }
 
-img {
-    width: 300px;
+.imagen {
+    width: 15em;
     height: auto;
     display: block;
     margin: auto;
+    box-shadow: 0 0 1.5em #888;
 }
 
 .descripcion {
     font-size: 1em;
     font-weight: lighter;
     text-align: justify;
+    font-style: italic;
 }
 
 .ingredientes {
@@ -36,11 +48,12 @@ img {
 
 .enlace {
     color: black;
+    text-decoration: none;
     border: 1px solid black;
-    padding: 5px;
+    padding: 0.4em;
     border-radius: 5px;
     margin: auto;
-    background-color: #ddd;
+    background: radial-gradient(circle, #cff, #aa9);
     display: block;
     margin: 0 auto;
     width: max-content;

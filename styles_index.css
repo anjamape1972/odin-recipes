@@ -4,21 +4,23 @@
 }
 
 body {
-
+    background: radial-gradient(circle, #aaa, #fff);
     border: 3px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
+    box-shadow: 0 0 1.5em #888;
+    padding: 1em;
+    margin: 1em;
 }
 
 .titulo {
+    margin-top: 0.25em;
     font-size: 2.5em;
     font-weight: lighter;
     text-align: center;
 }
 
 img {
-    width: 300px;
+    width: 15em;
     height: auto;
     display: block;
     margin: auto;
@@ -30,4 +32,12 @@ img {
 
 .enlaces {
     text-align: center;
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-style: oblique;
+    color: rgb(0, 128, 255);
+    border: 1px solid rgb(0, 128, 255);
+    padding: 0.5em;
+    background-color: #aaa6;
 }
